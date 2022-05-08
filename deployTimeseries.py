@@ -22,7 +22,7 @@ TODAY = date.today().strftime("%Y-%m-%d")
 
 st.markdown("![](https://github.com/richardzefan/amazon_stock_price_timeseries/blob/e3e18f074254610d9cd8cd7144e28499118873e5/TimeSeries.png)")
 #st.image("https://github.com/richardzefan/amazon_stock_price_timeseries/blob/e3e18f074254610d9cd8cd7144e28499118873e5/TimeSeries.png", width=100)
-st.title('Stock Forecast')
+st.title('Stock Price Forecast')
 
 stocks = ['AMZN','GOOG', 'AAPL', 'MSFT', 'GME']
 selected_stock = st.selectbox('Pilih Dataset', stocks)
