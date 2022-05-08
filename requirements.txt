@@ -3,7 +3,6 @@ xlrd<2.0
 streamlit==0.74.1
 plotly==4.14.3
 Pillow==8.1.2
-streamlit==0.68.1
 pandas==0.25.3
 base58==2.0.0
 matplotlib==3.1.3
