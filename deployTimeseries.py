@@ -21,7 +21,7 @@ START = "2015-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 
 #st.markdown("![](https://github.com/richardzefan/amazon_stock_price_timeseries/blob/e3e18f074254610d9cd8cd7144e28499118873e5/TimeSeries.png)")
-st.image("https://miro.medium.com/max/1000/1*Pt4XXTHeOOXqcYrbc6-6CQ.png", width=100)
+st.image("https://miro.medium.com/max/1000/1*vmbemTC97imZJP120qFshw.png", width=100)
 st.title('Stock Price Forecast')
 
 stocks = ['AMZN','GOOG', 'AAPL', 'MSFT', 'GME']
