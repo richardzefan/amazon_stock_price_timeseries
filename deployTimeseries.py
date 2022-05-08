@@ -5,7 +5,7 @@ import warnings
 
 import yfinance as yf
 from fbprophet import Prophet
-from prophet.plot import plot_plotly
+from fbprophet.plot import plot_plotly
 from plotly import graph_objs as go
 import pandas as pd
 import matplotlib.pyplot as plt
