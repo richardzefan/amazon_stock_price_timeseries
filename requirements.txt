@@ -1,12 +1,11 @@
-Cython
 numpy
 pandas
 matplotlib
-convertdate
 pystan==2.19.1.1
 yfinance
-streamlit == 1.9.0 
+streamlit
 plotly
-fbprophet
+prophet
 statsmodels
+
 
