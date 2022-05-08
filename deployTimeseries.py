@@ -113,10 +113,11 @@ def prophetMod(durasi):
 def ArimaMod(durasi):
     # ARIMA
   
-    model = sm.tsa.arima.ARIMA(df_close, order=(5,1,5)).fit()
+    model = sm.tsa.arima.ARIMA(df_close, order=(5,1,5))
+    model_fit = model.fit()
     
 
-    model.predict(1,len(df_close) + durasi) #Plot predictions for the next thousand days
+    model_fit.predict(1,len(df_close) + durasi) #Plot predictions for the next thousand days
     x = model_fit.forecast(steps=durasi) #Forecast the prediction for the next thousand days.
     x = plt.title(selected_stock+" Stock Forecast") #Add a stock title
     x = plt.xlabel("Year") #Add the year label to the bottom
