@@ -16,8 +16,6 @@ import numpy as np
 import warnings
 warnings.filterwarnings("ignore")
 from statsmodels.tsa.arima_model import ARIMA
-import statsmodels.api as sm
-
 
 
 
@@ -115,7 +113,7 @@ def prophetMod(durasi):
 def ArimaMod(durasi):
     # ARIMA
   
-    model = sm.tsa.arima.ARIMA(df_close, order=(5,1,5))
+    model = ARIMA(df_close, order=(5,1,5))
     model_fit = model.fit()
     
 
