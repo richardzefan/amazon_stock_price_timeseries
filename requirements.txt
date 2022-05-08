@@ -6,5 +6,5 @@ yfinance
 streamlit
 plotly
 prophet
-statsmodels
+statsmodels==0.12.2
 
