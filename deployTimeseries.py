@@ -20,8 +20,8 @@ from statsmodels.tsa.arima_model import ARIMA
 START = "2015-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 
-st.markdown("![](https://github.com/richardzefan/amazon_stock_price_timeseries/blob/e3e18f074254610d9cd8cd7144e28499118873e5/TimeSeries.png)")
-#st.image("https://github.com/richardzefan/amazon_stock_price_timeseries/blob/e3e18f074254610d9cd8cd7144e28499118873e5/TimeSeries.png", width=100)
+#st.markdown("![](https://github.com/richardzefan/amazon_stock_price_timeseries/blob/e3e18f074254610d9cd8cd7144e28499118873e5/TimeSeries.png)")
+st.image("https://drive.google.com/file/d/1AqEZIbU68u-rCQrXfCQ6G2cxtfRbzLaI/view", width=100)
 st.title('Stock Price Forecast')
 
 stocks = ['AMZN','GOOG', 'AAPL', 'MSFT', 'GME']
