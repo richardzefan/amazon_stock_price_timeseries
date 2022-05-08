@@ -101,7 +101,7 @@ def prophetMod(durasi):
             st.subheader('Forecast data')
             st.write(forecast.tail())
  
-            st.write(f'Forecast untuk {n_years} tahun')
+            st.write('Forecast')
             fig1 = plot_plotly(m, forecast)
             st.plotly_chart(fig1)
         
