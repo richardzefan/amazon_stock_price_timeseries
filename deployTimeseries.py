@@ -16,7 +16,6 @@ import numpy as np
 import warnings
 warnings.filterwarnings("ignore")
 from statsmodels.tsa.arima_model import ARIMA
-import statsmodels.api as sm
 
 START = "2015-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
@@ -112,7 +111,7 @@ def prophetMod(durasi):
 def ArimaMod(durasi):
     # ARIMA
   
-    model = sm.tsa.ARMA(df_close, order=(5,1,5))
+    model = ARIMA(df_close, order=(5,1,5))
     model_fit = model.fit()
     
 
