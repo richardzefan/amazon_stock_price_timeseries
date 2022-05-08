@@ -8,3 +8,5 @@ yfinance
 streamlit
 plotly
 fbprophet
+statsmodels
+PIL
