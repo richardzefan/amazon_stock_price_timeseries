@@ -10,3 +10,4 @@ numpy==1.18.1
 yfinance==0.1.54
 lxml==4.5.1
 pystan==2.19.1.1
+prophet==1.0.1
