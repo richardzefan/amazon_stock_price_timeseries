@@ -11,7 +11,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import plotly.express as px
 from PIL import Image
-
+import statsmodels.api as sm
 import numpy as np
 import warnings
 warnings.filterwarnings("ignore")
@@ -115,7 +115,7 @@ def prophetMod(durasi):
 def ArimaMod(durasi):
     # ARIMA
   
-    model = ARIMA(df_close, order=(5,1,5))
+    model = sm.tsa.arima.ARIMA(df_close, order=(5,1,5))
     model_fit = model.fit(disp=-1)
     
 
