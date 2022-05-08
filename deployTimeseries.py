@@ -116,7 +116,7 @@ def ArimaMod(durasi):
     # ARIMA
   
     model = sm.tsa.arima.ARIMA(df_close, order=(5,1,5))
-    model_fit = model.fit(disp=-1)
+    model_fit = model.fit()
     
 
     model_fit.plot_predict(1,len(df_close) + durasi) #Plot predictions for the next thousand days
