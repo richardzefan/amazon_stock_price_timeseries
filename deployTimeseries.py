@@ -1,7 +1,7 @@
 import streamlit as st
 from datetime import date
 import sys
-import warnings
+
 
 import yfinance as yf
 from prophet import Prophet
@@ -13,6 +13,8 @@ import plotly.express as px
 from PIL import Image
 
 import numpy as np
+import warnings
+warnings.filterwarnings("ignore")
 from statsmodels.tsa.arima_model import ARIMA
 import statsmodels.api as sm
 
