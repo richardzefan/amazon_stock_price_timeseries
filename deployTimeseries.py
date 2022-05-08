@@ -43,7 +43,7 @@ data = load_data(selected_stock)
 #tampilkan data
 if selected_stock:
     st.subheader('Menampilkan Data '+ selected_stock)
-number = st.number_input('Masukkan Jumlah Baris yang ingin ditampilkan', min_value=1,max_value=1000)
+number = st.number_input('Masukkan Jumlah Baris yang ingin ditampilkan', min_value=1,max_value=10000000)
 col1, col2 = st.columns(2)
 with col1 :
     if st.button('Data Awal'):
