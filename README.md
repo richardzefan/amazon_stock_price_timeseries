@@ -1,8 +1,7 @@
 
 
-Launch the web app (CLICK THIS):
-
-[![Click this](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/richardzefan/amazon_stock_price_timeseries/main/deployTimeseries.py)
+Deploy Model dapat dilihat diLink Berikut :
+https://share.streamlit.io/richardzefan/amazon_stock_price_timeseries/main/deployTimeseries.py
 
 
 
