@@ -1,7 +1,6 @@
 
 
-## Deploy Model dapat dilihat diLink Berikut :
-https://share.streamlit.io/richardzefan/amazon_stock_price_timeseries/main/deployTimeseries.py
+## Deploy Model dapat dilihat diLink Berikut : https://share.streamlit.io/richardzefan/amazon_stock_price_timeseries/main/deployTimeseries.py
 
 ## PDF Result : https://drive.google.com/file/d/1wsTDJzcww9CtPAmPglWLepdrTI8cp_2B/view?usp=sharing
 
